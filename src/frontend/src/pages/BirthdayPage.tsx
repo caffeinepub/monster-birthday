@@ -40,7 +40,7 @@ export default function BirthdayPage() {
   const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    document.title = "Happy Birthday Monster! 🎉";
+    document.title = "Happy Birthday Jayom! 🎉";
   }, []);
 
   return (
@@ -250,13 +250,6 @@ export default function BirthdayPage() {
           >
             <p
               className="leading-relaxed text-lg md:text-xl"
-              style={{ color: "#E8EDFB", fontFamily: "'Figtree', sans-serif" }}
-            >
-              Hey <strong style={{ color: "#B9FF4A" }}>Monster!</strong> 🎂
-            </p>
-            <br />
-            <p
-              className="leading-relaxed text-lg md:text-xl"
               style={{ color: "#C9CED6", fontFamily: "'Figtree', sans-serif" }}
             >
               Today is <strong style={{ color: "#FFE36E" }}>YOUR</strong> day.
@@ -282,7 +275,7 @@ export default function BirthdayPage() {
                 textShadow: "0 0 15px #B9FF7A80",
               }}
             >
-              Happy Birthday, Monster! 🎈🎂🎊
+              Happy Birthday, Jayom! 🎈🎂🎊
             </p>
           </div>
         </div>
@@ -342,7 +335,7 @@ export default function BirthdayPage() {
             textShadow: "0 0 15px #B9FF4A60",
           }}
         >
-          Happy Birthday Monster! 🎉
+          Happy Birthday Jayom! 🎉
         </p>
         <p style={{ color: "#4A5568", fontSize: "0.85rem" }}>
           With love &amp; good vibes — {new Date().getFullYear()} 🎈
